@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include<bits/stdc++.h>
 using namespace std;
 string a,b,i;
 char temp;
@@ -11,7 +10,7 @@ int main() {
      temp=a[0];
      a[0]=b[0];
      b[0]=temp;
-     //cout<<endl<<a[0]<<endl<<b[0];
+    
      cout<<endl<<a<<" "<<b;
      
      
